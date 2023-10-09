@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    box-sizing: border-box;
+    background: url("https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMwfHxiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60") no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.clock{
+    display: flex;
+    position: relative;
+
+}
+
+.clock div{
+
+    margin: 5px;
+}
+
+.clock span{
+    display: flex;
+    font-size: 50px;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 90px;
+    opacity: 0.8;
+}
+
+.clock .text{
+
+    font-size: 20px;
+    background-color: white;
+    color: slateblue;
+    height: 50px;
+    font-weight: bolder;
+}
+
+#ampm{
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    font-weight: 600;
+    height: 50px;
+    background-color: green;
+}
+
+
+
